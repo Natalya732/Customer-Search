@@ -139,6 +139,7 @@ export const SearchPage: React.FC = () => {
     setLoading(true);
     setError(null);
 
+    
     try {  
       const response = await fetch("http://localhost:3001/customers");
 
