@@ -1,0 +1,706 @@
+{
+  "customers": [
+    {
+      "id": "1",
+      "firstName": "John",
+      "lastName": "Doe",
+      "dateOfBirth": "1985-03-15",
+      "maritalStatus": "Married",
+      "secureId": "SEC-001",
+      "addresses": [
+        {
+          "id": "addr-1-1",
+          "type": "Home",
+          "street": "123 Main Street",
+          "city": "New York",
+          "state": "NY",
+          "zipCode": "10001"
+        },
+        {
+          "id": "addr-1-2",
+          "type": "Business",
+          "street": "456 Corporate Blvd",
+          "city": "New York",
+          "state": "NY",
+          "zipCode": "10002"
+        }
+      ],
+      "phones": [
+        {
+          "id": "phone-1-1",
+          "type": "Mobile",
+          "number": "+1-555-0101",
+          "isPrimary": true
+        },
+        {
+          "id": "phone-1-2",
+          "type": "Work",
+          "number": "+1-555-0102",
+          "isPrimary": false
+        }
+      ],
+      "emails": [
+        {
+          "id": "email-1-1",
+          "type": "Personal",
+          "address": "john.doe@email.com",
+          "isPrimary": true
+        },
+        {
+          "id": "email-1-2",
+          "type": "Work",
+          "address": "j.doe@company.com",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "dateOfBirth": "1990-07-22",
+      "maritalStatus": "Single",
+      "secureId": "SEC-002",
+      "addresses": [
+        {
+          "id": "addr-2-1",
+          "type": "Home",
+          "street": "789 Oak Avenue",
+          "city": "Los Angeles",
+          "state": "CA",
+          "zipCode": "90001"
+        }
+      ],
+      "phones": [
+        {
+          "id": "phone-2-1",
+          "type": "Mobile",
+          "number": "+1-555-0201",
+          "isPrimary": true
+        }
+      ],
+      "emails": [
+        {
+          "id": "email-2-1",
+          "type": "Personal",
+          "address": "jane.smith@email.com",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "firstName": "Robert",
+      "lastName": "Johnson",
+      "dateOfBirth": "1982-11-08",
+      "maritalStatus": "Married",
+      "secureId": "SEC-003",
+      "addresses": [
+        {
+          "id": "addr-3-1",
+          "type": "Home",
+          "street": "321 Elm Street",
+          "city": "Chicago",
+          "state": "IL",
+          "zipCode": "60601"
+        },
+        {
+          "id": "addr-3-2",
+          "type": "Mailing",
+          "street": "PO Box 123",
+          "city": "Chicago",
+          "state": "IL",
+          "zipCode": "60602"
+        }
+      ],
+      "phones": [
+        {
+          "id": "phone-3-1",
+          "type": "Mobile",
+          "number": "+1-555-0301",
+          "isPrimary": true
+        },
+        {
+          "id": "phone-3-2",
+          "type": "Home",
+          "number": "+1-555-0302",
+          "isPrimary": false
+        }
+      ],
+      "emails": [
+        {
+          "id": "email-3-1",
+          "type": "Personal",
+          "address": "robert.j@email.com",
+          "isPrimary": true
+        },
+        {
+          "id": "email-3-2",
+          "type": "Work",
+          "address": "r.johnson@business.com",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "firstName": "Emily",
+      "lastName": "Williams",
+      "dateOfBirth": "1995-04-30",
+      "maritalStatus": "Divorced",
+      "secureId": "SEC-004",
+      "addresses": [
+        {
+          "id": "addr-4-1",
+          "type": "Home",
+          "street": "555 Pine Road",
+          "city": "Houston",
+          "state": "TX",
+          "zipCode": "77001"
+        }
+      ],
+      "phones": [
+        {
+          "id": "phone-4-1",
+          "type": "Mobile",
+          "number": "+1-555-0401",
+          "isPrimary": true
+        },
+        {
+          "id": "phone-4-2",
+          "type": "Work",
+          "number": "+1-555-0402",
+          "isPrimary": false
+        }
+      ],
+      "emails": [
+        {
+          "id": "email-4-1",
+          "type": "Work",
+          "address": "emily.williams@corp.com",
+          "isPrimary": true
+        },
+        {
+          "id": "email-4-2",
+          "type": "Personal",
+          "address": "emilyw@email.com",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "dateOfBirth": "1978-09-12",
+      "maritalStatus": "Widowed",
+      "secureId": "SEC-005",
+      "addresses": [
+        {
+          "id": "addr-5-1",
+          "type": "Home",
+          "street": "777 Maple Drive",
+          "city": "Phoenix",
+          "state": "AZ",
+          "zipCode": "85001"
+        },
+        {
+          "id": "addr-5-2",
+          "type": "Business",
+          "street": "888 Business Park",
+          "city": "Phoenix",
+          "state": "AZ",
+          "zipCode": "85002"
+        }
+      ],
+      "phones": [
+        {
+          "id": "phone-5-1",
+          "type": "Mobile",
+          "number": "+1-555-0501",
+          "isPrimary": true
+        }
+      ],
+      "emails": [
+        {
+          "id": "email-5-1",
+          "type": "Personal",
+          "address": "michael.brown@email.com",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "firstName": "Sarah",
+      "lastName": "Davis",
+      "dateOfBirth": "1992-12-05",
+      "maritalStatus": "Single",
+      "secureId": "SEC-006",
+      "addresses": [
+        {
+          "id": "addr-6-1",
+          "type": "Home",
+          "street": "999 Cedar Lane",
+          "city": "Philadelphia",
+          "state": "PA",
+          "zipCode": "19019"
+        },
+        {
+          "id": "addr-6-2",
+          "type": "Mailing",
+          "street": "1010 Mailbox Ave",
+          "city": "Philadelphia",
+          "state": "PA",
+          "zipCode": "19020"
+        }
+      ],
+      "phones": [
+        {
+          "id": "phone-6-1",
+          "type": "Mobile",
+          "number": "+1-555-0601",
+          "isPrimary": true
+        },
+        {
+          "id": "phone-6-2",
+          "type": "Home",
+          "number": "+1-555-0602",
+          "isPrimary": false
+        },
+        {
+          "id": "phone-6-3",
+          "type": "Work",
+          "number": "+1-555-0603",
+          "isPrimary": false
+        }
+      ],
+      "emails": [
+        {
+          "id": "email-6-1",
+          "type": "Personal",
+          "address": "sarah.davis@email.com",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "firstName": "David",
+      "lastName": "Miller",
+      "dateOfBirth": "1987-06-18",
+      "maritalStatus": "Married",
+      "secureId": "SEC-007",
+      "addresses": [
+        {
+          "id": "addr-7-1",
+          "type": "Home",
+          "street": "111 Birch Street",
+          "city": "San Antonio",
+          "state": "TX",
+          "zipCode": "78201"
+        }
+      ],
+      "phones": [
+        {
+          "id": "phone-7-1",
+          "type": "Mobile",
+          "number": "+1-555-0701",
+          "isPrimary": true
+        },
+        {
+          "id": "phone-7-2",
+          "type": "Work",
+          "number": "+1-555-0702",
+          "isPrimary": false
+        }
+      ],
+      "emails": [
+        {
+          "id": "email-7-1",
+          "type": "Work",
+          "address": "d.miller@enterprise.com",
+          "isPrimary": true
+        },
+        {
+          "id": "email-7-2",
+          "type": "Personal",
+          "address": "davidm@email.com",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "firstName": "Lisa",
+      "lastName": "Wilson",
+      "dateOfBirth": "1993-01-25",
+      "maritalStatus": "Single",
+      "secureId": "SEC-008",
+      "addresses": [
+        {
+          "id": "addr-8-1",
+          "type": "Home",
+          "street": "222 Spruce Court",
+          "city": "San Diego",
+          "state": "CA",
+          "zipCode": "92101"
+        },
+        {
+          "id": "addr-8-2",
+          "type": "Business",
+          "street": "333 Office Plaza",
+          "city": "San Diego",
+          "state": "CA",
+          "zipCode": "92102"
+        }
+      ],
+      "phones": [
+        {
+          "id": "phone-8-1",
+          "type": "Mobile",
+          "number": "+1-555-0801",
+          "isPrimary": true
+        }
+      ],
+      "emails": [
+        {
+          "id": "email-8-1",
+          "type": "Personal",
+          "address": "lisa.wilson@email.com",
+          "isPrimary": true
+        },
+        {
+          "id": "email-8-2",
+          "type": "Work",
+          "address": "l.wilson@company.net",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "firstName": "James",
+      "lastName": "Moore",
+      "dateOfBirth": "1980-08-14",
+      "maritalStatus": "Divorced",
+      "secureId": "SEC-009",
+      "addresses": [
+        {
+          "id": "addr-9-1",
+          "type": "Home",
+          "street": "444 Willow Way",
+          "city": "Dallas",
+          
+          "state": "TX",
+          "zipCode": "75201"
+        }
+      ],
+      "phones": [
+        {
+          "id": "phone-9-1",
+          "type": "Mobile",
+          "number": "+1-555-0901",
+          "isPrimary": true
+        },
+        {
+          "id": "phone-9-2",
+          "type": "Home",
+          "number": "+1-555-0902",
+          "isPrimary": false
+        }
+      ],
+      "emails": [
+        {
+          "id": "email-9-1",
+          "type": "Personal",
+          "address": "james.moore@email.com",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "firstName": "Patricia",
+      "lastName": "Taylor",
+      "dateOfBirth": "1989-05-03",
+      "maritalStatus": "Married",
+      "secureId": "SEC-010",
+      "addresses": [
+        {
+          "id": "addr-10-1",
+          "type": "Home",
+          "street": "555 Ash Boulevard",
+          "city": "San Jose",
+          "state": "CA",
+          "zipCode": "95101"
+        },
+        {
+          "id": "addr-10-2",
+          "type": "Mailing",
+          "street": "666 Post Office Box",
+          "city": "San Jose",
+          "state": "CA",
+          "zipCode": "95102"
+        }
+      ],
+      "phones": [
+        {
+          "id": "phone-10-1",
+          "type": "Mobile",
+          "number": "+1-555-1001",
+          "isPrimary": true
+        },
+        {
+          "id": "phone-10-2",
+          "type": "Work",
+          "number": "+1-555-1002",
+          "isPrimary": false
+        }
+      ],
+      "emails": [
+        {
+          "id": "email-10-1",
+          "type": "Personal",
+          "address": "patricia.taylor@email.com",
+          "isPrimary": true
+        },
+        {
+          "id": "email-10-2",
+          "type": "Work",
+          "address": "p.taylor@business.io",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "firstName": "Nikita",
+      "lastName": "Pandey",
+      "dateOfBirth": "2002-02-06",
+      "maritalStatus": "Single",
+      "secureId": "SEC-011",
+      "addresses": [
+        {
+          "id": "addr-11-1",
+          "type": "Home",
+          "street": "777 Redwood Road",
+          "city": "Nainital",
+          "state": "TX",
+          "zipCode": "78701"
+        }
+      ],
+      "phones": [
+        {
+          "id": "phone-11-1",
+          "type": "Mobile",
+          "number": "+1-555-1101",
+          "isPrimary": true
+        },
+        {
+          "id": "phone-11-2",
+          "type": "Home",
+          "number": "+1-555-1102",
+          "isPrimary": false
+        }
+      ],
+      "emails": [
+        {
+          "id": "email-11-1",
+          "type": "Work",
+          "address": "nikkupandey0602@gmail.com",
+          "isPrimary": true
+        },
+        {
+          "id": "email-11-2",
+          "type": "Personal",
+          "address": "chris.anderson@email.com",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "firstName": "Amanda",
+      "lastName": "Thomas",
+      "dateOfBirth": "1991-02-28",
+      "maritalStatus": "Single",
+      "secureId": "SEC-012",
+      "addresses": [
+        {
+          "id": "addr-12-1",
+          "type": "Home",
+          "street": "888 Fir Street",
+          "city": "Jacksonville",
+          "state": "FL",
+          "zipCode": "32099"
+        },
+        {
+          "id": "addr-12-2",
+          "type": "Business",
+          "street": "999 Commerce Center",
+          "city": "Jacksonville",
+          "state": "FL",
+          "zipCode": "32100"
+        }
+      ],
+      "phones": [
+        {
+          "id": "phone-12-1",
+          "type": "Mobile",
+          "number": "+1-555-1201",
+          "isPrimary": true
+        }
+      ],
+      "emails": [
+        {
+          "id": "email-12-1",
+          "type": "Personal",
+          "address": "amanda.thomas@email.com",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "firstName": "Daniel",
+      "lastName": "Jackson",
+      "dateOfBirth": "1979-11-11",
+      "maritalStatus": "Divorced",
+      "secureId": "SEC-013",
+      "addresses": [
+        {
+          "id": "addr-13-1",
+          "type": "Home",
+          "street": "1000 Poplar Avenue",
+          "city": "Columbus",
+          "state": "OH",
+          "zipCode": "43201"
+        }
+      ],
+      "phones": [
+        {
+          "id": "phone-13-1",
+          "type": "Mobile",
+          "number": "+1-555-1301",
+          "isPrimary": true
+        },
+        {
+          "id": "phone-13-2",
+          "type": "Work",
+          "number": "+1-555-1302",
+          "isPrimary": false
+        }
+      ],
+      "emails": [
+        {
+          "id": "email-13-1",
+          "type": "Personal",
+          "address": "daniel.jackson@email.com",
+          "isPrimary": true
+        },
+        {
+          "id": "email-13-2",
+          "type": "Work",
+          "address": "d.jackson@corporation.com",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "firstName": "Jessica",
+      "lastName": "White",
+      "dateOfBirth": "1986-07-07",
+      "maritalStatus": "Married",
+      "secureId": "SEC-014",
+      "addresses": [
+        {
+          "id": "addr-14-1",
+          "type": "Home",
+          "street": "1111 Sycamore Drive",
+          "city": "Charlotte",
+          "state": "NC",
+          "zipCode": "28201"
+        },
+        {
+          "id": "addr-14-2",
+          "type": "Mailing",
+          "street": "2222 PO Box Street",
+          "city": "Charlotte",
+          "state": "NC",
+          "zipCode": "28202"
+        }
+      ],
+      "phones": [
+        {
+          "id": "phone-14-1",
+          "type": "Mobile",
+          "number": "+1-555-1401",
+          "isPrimary": true
+        },
+        {
+          "id": "phone-14-2",
+          "type": "Home",
+          "number": "+1-555-1402",
+          "isPrimary": false
+        }
+      ],
+      "emails": [
+        {
+          "id": "email-14-1",
+          "type": "Personal",
+          "address": "jessica.white@email.com",
+          "isPrimary": true
+        },
+        {
+          "id": "email-14-2",
+          "type": "Work",
+          "address": "j.white@business.org",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "firstName": "Matthew",
+      "lastName": "Harris",
+      "dateOfBirth": "1994-03-16",
+      "maritalStatus": "Single",
+      "secureId": "SEC-015",
+      "addresses": [
+        {
+          "id": "addr-15-1",
+          "type": "Home",
+          "street": "3333 Magnolia Lane",
+          "city": "Seattle",
+          "state": "WA",
+          "zipCode": "98101"
+        }
+      ],
+      "phones": [
+        {
+          "id": "phone-15-1",
+          "type": "Mobile",
+          "number": "+1-555-1501",
+          "isPrimary": true
+        }
+      ],
+      "emails": [
+        {
+          "id": "email-15-1",
+          "type": "Personal",
+          "address": "matthew.harris@email.com",
+          "isPrimary": true
+        },
+        {
+          "id": "email-15-2",
+          "type": "Work",
+          "address": "m.harris@startup.com",
+          "isPrimary": false
+        }
+      ]
+    }
+  ]
+}
+
